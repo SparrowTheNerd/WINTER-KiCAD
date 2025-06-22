@@ -1,0 +1,6 @@
+(version 1)
+
+# Sets clearance for GPS Coplanar Waveguide
+#(rule GPS-CPWG
+#	(constraint clearance (min 0.1mm))
+#	(condition "A.Name == 'GPS-GND'"))

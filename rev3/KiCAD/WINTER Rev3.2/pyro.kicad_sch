@@ -1,0 +1,4518 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "187393ec-e7ab-471a-b21b-c58330805292")
+	(paper "A5")
+	(title_block
+		(title "WINTER Pyro Channels")
+		(date "2024-04-24")
+		(rev "3.2")
+	)
+	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "rev3_components:SI7232DN-T1-GE3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 4.064 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "rev3footprints:TRANS_SI7232DN-T1-GE3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SI7232DN-T1-GE3_0_1"
+				(polyline
+					(pts
+						(xy 0.0001 6.2634) (xy 0.0001 5.5014)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.7809 2.5595) (xy 1.7809 1.5435)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.7809 4.3375) (xy 1.7809 3.3215)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.7809 6.1155) (xy 1.7809 5.0995)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.2889 5.7345) (xy 2.2889 1.9245)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3705 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 6.35) (xy 6.35 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.8309 0.6297) (xy 0.9347 0.6297)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.8916 6.9872) (xy 0.9954 6.9872)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.128 2.54) (xy 8.128 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.128 4.318) (xy 8.128 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.128 6.096) (xy 8.128 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 5.715) (xy 8.636 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.6953 2.5401) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.0029 1.2895) (xy 0.0029 3.8295) (xy 1.7809 3.8295)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.27) (xy 6.35 3.81) (xy 8.128 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.7591 4.2105) (xy -0.3781 3.5755) (xy -1.1401 3.5755) (xy -0.7591 4.2105)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.2511 4.3375) (xy -0.3781 4.2105) (xy -1.1401 4.2105) (xy -1.2671 4.0835)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5269 3.8295) (xy 0.5109 4.2105) (xy 0.5109 3.4485) (xy 1.5269 3.8295)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.7809 2.0515) (xy -0.7591 2.0515) (xy -0.7591 5.6075) (xy 1.7809 5.6075)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 4.191) (xy 5.969 3.556) (xy 5.207 3.556) (xy 5.588 4.191)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 4.318) (xy 5.969 4.191) (xy 5.207 4.191) (xy 5.08 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 3.81) (xy 6.858 4.191) (xy 6.858 3.429) (xy 7.874 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.128 2.032) (xy 5.588 2.032) (xy 5.588 5.588) (xy 8.128 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.0029 2.0515)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.0029 5.6075)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 1.0229 6.985)
+					(mid -1.9146 3.81)
+					(end 1.0229 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 5.715)
+					(mid 1.27 5.715)
+					(end 1.27 5.715)
+					(stroke
+						(width 1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 2.032)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 5.588)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 7.8671 0.635)
+					(mid 10.8046 3.81)
+					(end 7.8671 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SI7232DN-T1-GE3_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 90)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 90)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 8.89 270)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 115.062 50.038)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18caa8a7-06bc-4b7f-8d9f-6ef400ad92e7")
+	)
+	(junction
+		(at 114.808 92.964)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1be0f56a-fe36-4cab-a0d8-0511924fa6da")
+	)
+	(junction
+		(at 107.95 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e9476a7-f478-4aab-8c10-e8e862233504")
+	)
+	(junction
+		(at 65.532 60.198)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "287034e0-c9e1-4926-bb11-2d7bf6891c47")
+	)
+	(junction
+		(at 114.808 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aa88366-e1d2-4eab-8551-a5864ee087d7")
+	)
+	(junction
+		(at 127 48.768)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50c91fb4-b978-4fed-81b4-02b0b1cdeda2")
+	)
+	(junction
+		(at 127.254 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57d26342-71b4-4e74-af60-f8e118bcdb94")
+	)
+	(junction
+		(at 65.532 57.912)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "696cc5a9-97a3-42ff-a7a4-7939da922707")
+	)
+	(junction
+		(at 65.532 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a9f1645-7e52-4dc1-80ba-c1f85fa0b8e1")
+	)
+	(junction
+		(at 127.254 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70f54eac-d81a-415a-ac30-8eca408b2560")
+	)
+	(junction
+		(at 126.746 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7508a50d-2d9c-4781-b18c-1bae18590a16")
+	)
+	(junction
+		(at 100.33 32.258)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a0af0c-21dc-4705-83ba-4c9ac085a472")
+	)
+	(junction
+		(at 100.33 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cad021b-8b74-4cbc-8739-935bf01d8ea2")
+	)
+	(junction
+		(at 100.33 55.118)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d0d1e42-a706-46c9-92c6-36112714ab53")
+	)
+	(junction
+		(at 108.0034 59.182)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad6d829d-4385-4fc3-995f-9220b3396373")
+	)
+	(junction
+		(at 126.746 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6f334fd-5a93-402a-8888-73c7dd00c965")
+	)
+	(junction
+		(at 127 56.388)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7f1aa30-d7ca-4452-a47c-c924def38cb6")
+	)
+	(junction
+		(at 127 61.468)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbcef694-421d-4fa3-b7ea-d91c71fbc9be")
+	)
+	(junction
+		(at 65.532 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3e9e2ba-2538-4ccd-bb57-8a16949ad04a")
+	)
+	(junction
+		(at 100.33 88.138)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1315110-8fee-48d8-9221-6bd9bb8e3ef9")
+	)
+	(junction
+		(at 65.532 53.848)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5970cad-f679-4ef3-aa5c-aacaad112af9")
+	)
+	(junction
+		(at 127.254 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d731f683-4c2c-47d0-9972-9f650275ea68")
+	)
+	(junction
+		(at 100.33 58.928)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dadf63c3-35b4-42c9-a04c-0c037f56e82f")
+	)
+	(junction
+		(at 115.062 64.262)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e16f9380-bbc6-4215-a8da-fdcb9fa2bf80")
+	)
+	(junction
+		(at 127 53.848)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0b69372-1260-41d6-a233-89c23c16be7c")
+	)
+	(junction
+		(at 115.316 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f25f3129-ce54-417a-b87e-530f80de54d5")
+	)
+	(junction
+		(at 126.746 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f82e5b74-f3c8-4653-ab39-4306d2a715c3")
+	)
+	(junction
+		(at 107.95 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb4c7129-a8e8-44cb-92af-eda5fbc376dc")
+	)
+	(junction
+		(at 127.254 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff0796ee-51cb-4e1f-b6ed-456e9cc96a64")
+	)
+	(junction
+		(at 115.316 37.084)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffd003bf-c94c-4e1e-9c8c-5de7b7ad2a55")
+	)
+	(junction
+		(at 126.746 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffd62ea9-60df-4dc5-9942-64014b26b80b")
+	)
+	(wire
+		(pts
+			(xy 124.206 26.67) (xy 127.254 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ed58bd-fdb9-4e59-b104-2e047e76de6b")
+	)
+	(wire
+		(pts
+			(xy 115.062 60.198) (xy 115.062 64.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03354608-5f7f-45ca-8694-7aa23550d9b6")
+	)
+	(wire
+		(pts
+			(xy 100.33 28.448) (xy 100.33 32.258)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048a1210-cb67-4aeb-a56b-656850a272f7")
+	)
+	(wire
+		(pts
+			(xy 65.532 53.848) (xy 65.532 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0514f415-13d3-4fbb-8261-ccd74a713f4e")
+	)
+	(wire
+		(pts
+			(xy 111.76 37.084) (xy 115.316 37.084)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0628cd39-ab9b-484a-ba85-8df8ec561239")
+	)
+	(wire
+		(pts
+			(xy 105.41 83.82) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0670745b-a254-4739-9c1b-3f423a0fa99f")
+	)
+	(wire
+		(pts
+			(xy 126.746 85.09) (xy 129.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06847ff9-2019-4ba5-b27c-343a697f5af5")
+	)
+	(wire
+		(pts
+			(xy 124.206 22.86) (xy 125.73 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a39ee0-61f6-4202-b440-7a5ac6413605")
+	)
+	(wire
+		(pts
+			(xy 125.476 48.768) (xy 127 48.768)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09991c25-8c37-416d-85ea-ecb0e117681d")
+	)
+	(wire
+		(pts
+			(xy 123.952 56.388) (xy 127 56.388)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c97d704-4855-48e5-93ef-772790cbde1a")
+	)
+	(wire
+		(pts
+			(xy 125.476 60.198) (xy 125.476 61.468)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1214b1d5-fe8c-44b6-925a-6b682d1a3efb")
+	)
+	(wire
+		(pts
+			(xy 123.952 53.848) (xy 127 53.848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186ce138-68ce-4988-a0b5-b9ad30160f25")
+	)
+	(wire
+		(pts
+			(xy 127 56.388) (xy 129.794 56.388)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcad773-6ce6-4255-a307-11517f3a3f6f")
+	)
+	(wire
+		(pts
+			(xy 107.95 87.884) (xy 111.252 87.884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27397da8-6369-4241-ba1e-f5b2b2d9f091")
+	)
+	(wire
+		(pts
+			(xy 125.476 50.038) (xy 125.476 48.768)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e36d1e-2170-40de-921a-aab012ab9be7")
+	)
+	(wire
+		(pts
+			(xy 97.536 33.02) (xy 97.536 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2988a176-6047-4aca-a16f-e2b871268abb")
+	)
+	(wire
+		(pts
+			(xy 107.95 83.058) (xy 107.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb426a2-de5d-460b-a47f-40fdf1385139")
+	)
+	(wire
+		(pts
+			(xy 126.746 90.17) (xy 135.636 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6481e3-b451-42ef-ac46-92b3142c168d")
+	)
+	(wire
+		(pts
+			(xy 124.206 29.21) (xy 127.254 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3482a1db-6a65-4835-9927-b61276c14aaa")
+	)
+	(wire
+		(pts
+			(xy 107.95 88.138) (xy 107.95 87.884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1a89b8-e2ad-490d-a135-3f45fa6bc0ec")
+	)
+	(wire
+		(pts
+			(xy 115.316 37.084) (xy 115.316 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4db0eb-a535-4204-aba2-c2d9d0b90fb3")
+	)
+	(wire
+		(pts
+			(xy 97.282 60.198) (xy 97.282 65.278)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8144bf-26b5-43b4-8600-7244deee4bc1")
+	)
+	(wire
+		(pts
+			(xy 127.254 26.67) (xy 130.048 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406cc845-79f0-4c58-bfdc-879925bd754f")
+	)
+	(wire
+		(pts
+			(xy 127.254 34.29) (xy 136.144 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d9b7eb-13ba-44c7-8ff1-712c147fc3cf")
+	)
+	(wire
+		(pts
+			(xy 125.73 34.29) (xy 127.254 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47593819-6ae3-43ad-ab97-ce56bf3e331f")
+	)
+	(wire
+		(pts
+			(xy 136.144 21.59) (xy 136.144 24.892)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484f6c71-6ed6-47a9-b580-49410cb47844")
+	)
+	(wire
+		(pts
+			(xy 65.532 33.02) (xy 65.532 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4877b599-4862-4984-ba76-7c8c8ff8b904")
+	)
+	(wire
+		(pts
+			(xy 125.476 61.468) (xy 127 61.468)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cc44b8-8c00-42e8-aabc-f0536c8fd271")
+	)
+	(wire
+		(pts
+			(xy 97.282 78.232) (xy 97.282 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c829fc5-cabe-4ae6-86ea-fbe6b5e98919")
+	)
+	(wire
+		(pts
+			(xy 114.808 78.232) (xy 114.808 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d96af48-4e08-4ba0-a23a-df14a4af6690")
+	)
+	(wire
+		(pts
+			(xy 125.73 22.86) (xy 125.73 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcc246f-b89c-4c62-95a0-1e60ee4c0e0d")
+	)
+	(wire
+		(pts
+			(xy 107.95 60.198) (xy 107.95 59.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55456490-7c05-449e-a30c-79bde3318aa4")
+	)
+	(wire
+		(pts
+			(xy 125.222 88.9) (xy 125.222 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a55723e-4632-4d88-a6ec-8b2a6aacc1be")
+	)
+	(wire
+		(pts
+			(xy 65.532 33.02) (xy 97.536 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8c2713-964e-4ccf-b166-cf23103c63dc")
+	)
+	(wire
+		(pts
+			(xy 123.698 78.74) (xy 125.222 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ab8399-badc-40ec-8a3e-ebfc67ad6b00")
+	)
+	(wire
+		(pts
+			(xy 115.062 64.262) (xy 115.062 65.278)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677b4311-040d-46bf-aafa-8c804757afc9")
+	)
+	(wire
+		(pts
+			(xy 135.636 77.47) (xy 135.636 80.772)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cbb9979-755a-4541-ba10-e5ac67bcb161")
+	)
+	(wire
+		(pts
+			(xy 111.252 92.964) (xy 114.808 92.964)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df09826-8923-4636-89b9-0bdf1e2abf57")
+	)
+	(wire
+		(pts
+			(xy 65.532 88.9) (xy 65.532 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd4761e-f385-4c2d-971c-ffa4ce8cdc27")
+	)
+	(wire
+		(pts
+			(xy 115.062 50.038) (xy 115.062 53.848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70af0089-9b42-4d56-8085-3a70c90029b3")
+	)
+	(wire
+		(pts
+			(xy 65.532 82.55) (xy 97.282 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727edf9f-e528-42e2-ad59-b110da2b0cf8")
+	)
+	(wire
+		(pts
+			(xy 126.746 82.55) (xy 129.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bbf424-a8e9-4240-b8d4-1342d0860bee")
+	)
+	(wire
+		(pts
+			(xy 115.316 33.02) (xy 115.316 37.084)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7508525f-79aa-4935-86f2-5ade0bdea52a")
+	)
+	(wire
+		(pts
+			(xy 107.95 27.94) (xy 107.95 28.448)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76eb6a90-8d2f-498d-9349-7e9ff21f1439")
+	)
+	(wire
+		(pts
+			(xy 105.41 28.448) (xy 107.95 28.448)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78057c9b-d76c-4902-bf7b-b60b88449077")
+	)
+	(wire
+		(pts
+			(xy 123.952 50.038) (xy 125.476 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a6472c-c863-4738-8619-7a0693fec431")
+	)
+	(wire
+		(pts
+			(xy 114.808 78.74) (xy 114.808 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc22b06-87ac-4c11-978b-75dccd9f14db")
+	)
+	(wire
+		(pts
+			(xy 114.808 92.964) (xy 114.808 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6932f6-83ce-4c8e-a02e-d646f29fa443")
+	)
+	(wire
+		(pts
+			(xy 127.254 29.21) (xy 130.048 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef8b74d-fe26-49cb-be1c-57390b709c44")
+	)
+	(wire
+		(pts
+			(xy 65.532 53.848) (xy 97.536 53.848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6a44d2-fbe8-4cac-8080-397161e0160d")
+	)
+	(wire
+		(pts
+			(xy 65.532 88.9) (xy 97.028 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6f6207-04c5-44a9-8191-b3a59941b7f8")
+	)
+	(wire
+		(pts
+			(xy 108.0034 58.928) (xy 108.0034 59.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fff6bbc-2d23-4010-8a04-76053b88de68")
+	)
+	(wire
+		(pts
+			(xy 65.532 82.55) (xy 65.532 60.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c02de89-fe56-41a5-a83c-0cdc6a683bea")
+	)
+	(wire
+		(pts
+			(xy 127 48.768) (xy 135.89 48.768)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1115c6-cc8f-4f10-b114-4a00f0287d4e")
+	)
+	(wire
+		(pts
+			(xy 100.33 32.258) (xy 100.33 55.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9bbddf-e7f2-42c7-871b-cdf67716b35e")
+	)
+	(wire
+		(pts
+			(xy 105.41 55.118) (xy 111.506 55.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e48691c-a4ab-4067-9e7e-48a045c981ed")
+	)
+	(wire
+		(pts
+			(xy 65.532 57.912) (xy 65.532 53.848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924beec9-04e4-4c53-9ade-0084ca1b969b")
+	)
+	(wire
+		(pts
+			(xy 107.95 27.178) (xy 107.95 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943770f6-fd92-4beb-afef-bc0c3fda5238")
+	)
+	(wire
+		(pts
+			(xy 123.698 85.09) (xy 126.746 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979d2d2f-a8ff-45ad-a892-78bbe1dfc492")
+	)
+	(wire
+		(pts
+			(xy 107.95 27.94) (xy 111.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992d5b97-cb25-43f7-b239-0a4034e2addc")
+	)
+	(wire
+		(pts
+			(xy 107.95 32.258) (xy 107.95 32.004)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99336ecf-cf1b-4eb7-8b91-5ee03312a42c")
+	)
+	(wire
+		(pts
+			(xy 127 61.468) (xy 135.89 61.468)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5f1be0-e81e-4428-aa35-25eccd59bebd")
+	)
+	(wire
+		(pts
+			(xy 107.95 59.182) (xy 108.0034 59.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffa7019-09bd-459f-98e4-2b48f9ee715f")
+	)
+	(wire
+		(pts
+			(xy 125.222 90.17) (xy 126.746 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e78b66-6104-41eb-9fdd-12639e97af2b")
+	)
+	(wire
+		(pts
+			(xy 123.698 88.9) (xy 125.222 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8defd3f-bfcd-4134-91ec-40734784a2c0")
+	)
+	(wire
+		(pts
+			(xy 127 53.848) (xy 129.794 53.848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab817f76-54eb-4d30-820f-a575a68ff080")
+	)
+	(wire
+		(pts
+			(xy 108.0034 59.182) (xy 111.506 59.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcbbdce-c459-4fc6-b81e-30e0e71f795c")
+	)
+	(wire
+		(pts
+			(xy 123.952 60.198) (xy 125.476 60.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac82b40b-43d7-4ae6-ae7c-a22cd00020e3")
+	)
+	(wire
+		(pts
+			(xy 126.746 77.47) (xy 135.636 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9345bf-9785-4d69-8df9-397a881bfa19")
+	)
+	(wire
+		(pts
+			(xy 100.33 83.82) (xy 100.33 88.138)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4c3631-caf5-4518-ad59-fad1dd5f50c1")
+	)
+	(wire
+		(pts
+			(xy 125.73 21.59) (xy 127.254 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68352b7-25eb-4203-b19e-3b7abe6b41fa")
+	)
+	(wire
+		(pts
+			(xy 115.316 22.86) (xy 115.316 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77543ab-be4d-494c-80f1-d4abeb6ce4c2")
+	)
+	(wire
+		(pts
+			(xy 55.626 57.912) (xy 65.532 57.912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bac047-1ea6-4cbc-b4d6-f4cdd80f3dbc")
+	)
+	(wire
+		(pts
+			(xy 125.73 33.02) (xy 125.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc93d5af-9c82-4a98-94f6-eb9c9442d1b8")
+	)
+	(wire
+		(pts
+			(xy 114.808 88.9) (xy 114.808 92.964)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c23c3b-9eca-48e0-8d83-fdf573013b76")
+	)
+	(wire
+		(pts
+			(xy 125.222 78.74) (xy 125.222 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c472f6ac-243c-4798-b9ab-1088872cb835")
+	)
+	(wire
+		(pts
+			(xy 111.252 78.74) (xy 114.808 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c09be4-80fb-4611-9fca-df084e157da1")
+	)
+	(wire
+		(pts
+			(xy 107.95 83.82) (xy 111.252 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6689281-1e17-4909-ae3f-9ac70022f8f3")
+	)
+	(wire
+		(pts
+			(xy 111.76 22.86) (xy 115.316 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8249916-4e67-4f65-8560-cb54a82b4069")
+	)
+	(wire
+		(pts
+			(xy 135.89 48.768) (xy 135.89 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c887bf58-2fed-4e3d-8d1e-e1eb0fc0eab7")
+	)
+	(wire
+		(pts
+			(xy 65.532 60.198) (xy 65.532 57.912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb06e17e-38d7-4d80-8850-9dad862e12ad")
+	)
+	(wire
+		(pts
+			(xy 97.536 49.53) (xy 97.536 53.848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba98713-9dcf-467c-b961-9eacff73ba60")
+	)
+	(wire
+		(pts
+			(xy 136.144 34.29) (xy 136.144 30.988)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c1c3cf-5bea-400d-8591-868acc39d9d2")
+	)
+	(wire
+		(pts
+			(xy 127.254 21.59) (xy 136.144 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d898b3-ac8f-478d-ac81-1d19f89fa808")
+	)
+	(wire
+		(pts
+			(xy 100.33 58.928) (xy 100.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67ea6a1-11c1-4e3d-ab6f-1474cd104562")
+	)
+	(wire
+		(pts
+			(xy 124.206 33.02) (xy 125.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f30b42-ebf7-4a2f-ac49-e659aa0f390a")
+	)
+	(wire
+		(pts
+			(xy 65.532 26.67) (xy 97.79 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b8d416-dafc-4099-9e1d-8d07be2d6ece")
+	)
+	(wire
+		(pts
+			(xy 107.95 32.004) (xy 111.76 32.004)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da15c5fc-93b3-4bf9-ae5f-e212be77d70f")
+	)
+	(wire
+		(pts
+			(xy 97.79 22.352) (xy 97.79 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1dc63c-61bc-4985-a757-5568d1d2fee9")
+	)
+	(wire
+		(pts
+			(xy 111.506 64.262) (xy 115.062 64.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df19f6e8-d084-42c7-ba68-0bf4b493bada")
+	)
+	(wire
+		(pts
+			(xy 100.33 55.118) (xy 100.33 58.928)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe88d11-1e44-42fb-8576-3767ba88dbb6")
+	)
+	(wire
+		(pts
+			(xy 115.062 49.53) (xy 115.062 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2edccec-8d47-498d-b201-fe3c04c99e61")
+	)
+	(wire
+		(pts
+			(xy 105.41 58.928) (xy 108.0034 58.928)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36bbbcd-cb89-4152-9923-c7a4a71157e6")
+	)
+	(wire
+		(pts
+			(xy 135.89 61.468) (xy 135.89 58.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e432d554-5e9b-4f63-bae4-c68e55b79c31")
+	)
+	(wire
+		(pts
+			(xy 65.532 60.198) (xy 97.282 60.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea15a3dc-6af6-465d-9f39-3eb64b2eec6f")
+	)
+	(wire
+		(pts
+			(xy 135.636 90.17) (xy 135.636 86.868)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4b93d5-1d0f-4c77-b4df-ade7bb98a33d")
+	)
+	(wire
+		(pts
+			(xy 107.95 88.138) (xy 105.41 88.138)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee29a890-165d-4bdd-91c1-51bfd763c0c6")
+	)
+	(wire
+		(pts
+			(xy 125.222 77.47) (xy 126.746 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f067bd7e-0324-4d88-8b24-bcb17e79c1be")
+	)
+	(wire
+		(pts
+			(xy 105.41 32.258) (xy 107.95 32.258)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54c5bd8-38ce-486b-9d5a-a2b70c760ccd")
+	)
+	(wire
+		(pts
+			(xy 97.028 88.9) (xy 97.028 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7216bdd-7932-4764-b5c5-440f2f4e6002")
+	)
+	(wire
+		(pts
+			(xy 111.506 50.038) (xy 115.062 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94da986-3399-4e7f-9dc3-98ce2eac163f")
+	)
+	(wire
+		(pts
+			(xy 100.33 88.138) (xy 100.33 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe37cda7-dd4d-4ef6-b35f-f26a2eeca36a")
+	)
+	(wire
+		(pts
+			(xy 123.698 82.55) (xy 126.746 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb5cc40-7036-4889-8d36-0b209094d6f4")
+	)
+	(wire
+		(pts
+			(xy 115.316 22.352) (xy 115.316 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9545ba-119b-46c7-a5ca-6084500886da")
+	)
+	(hierarchical_label "SENSE1"
+		(shape input)
+		(at 107.95 32.258 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "046136e9-59d9-4f35-9587-1baf3c7fe1a4")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 136.144 30.988 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05e90d9b-e650-4f8c-9b90-0be55ee7ea3c")
+	)
+	(hierarchical_label "PY4"
+		(shape input)
+		(at 129.794 53.848 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17415c73-9467-4278-bcf8-cdba3e8f6830")
+	)
+	(hierarchical_label "6-"
+		(shape input)
+		(at 114.808 78.232 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a0fcfaf-6226-415c-8622-76df23a805cb")
+	)
+	(hierarchical_label "PY5"
+		(shape input)
+		(at 129.54 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ee91b7c-5eec-468c-b0bd-894cee310d48")
+	)
+	(hierarchical_label "PY3"
+		(shape input)
+		(at 129.794 56.388 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30a95379-0ad7-4d98-9c5b-4ad97fdfdc5d")
+	)
+	(hierarchical_label "4-"
+		(shape input)
+		(at 115.062 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3163710f-70aa-475c-bb7c-455bc2d93f7b")
+	)
+	(hierarchical_label "2-"
+		(shape input)
+		(at 115.316 22.352 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "324062ab-e05a-4a05-8bea-3e69e31bdef9")
+	)
+	(hierarchical_label "3-"
+		(shape input)
+		(at 115.062 65.278 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35ca6a10-96a9-427a-809e-fb84be25e046")
+	)
+	(hierarchical_label "SENSE6"
+		(shape input)
+		(at 107.95 83.058 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36a935de-9f3f-49cc-abc5-6ccdc6445205")
+	)
+	(hierarchical_label "5-"
+		(shape input)
+		(at 114.808 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40e4f2b5-368c-40ef-8e7e-7c4081d9f2c7")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 100.33 90.678 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fb5cffd-8c9a-47c0-ba3f-3017cb01dd13")
+	)
+	(hierarchical_label "PY+"
+		(shape input)
+		(at 97.282 65.278 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53dcfc8a-0ecc-4a5b-b6b5-edf896962ef2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 135.636 80.772 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53fab13f-338f-4754-b5b6-292ca2366246")
+	)
+	(hierarchical_label "PY+"
+		(shape input)
+		(at 97.028 93.98 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5bc08b70-64f9-4c04-be05-0e4f6bfcea51")
+	)
+	(hierarchical_label "PY+"
+		(shape input)
+		(at 97.282 78.232 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f658562-43f1-4734-bf5b-7c802842e06e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 136.144 24.892 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7efde711-5cf0-44f9-b0a3-20960d7fa12a")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 135.89 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d628136-284d-400a-8891-3826a894b82b")
+	)
+	(hierarchical_label "PY+"
+		(shape input)
+		(at 97.79 22.352 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1a60a83-4a93-4550-8395-41a307ffe6b7")
+	)
+	(hierarchical_label "PY+"
+		(shape input)
+		(at 97.536 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4d560ec-558f-4ef6-ac0c-daf2b76e963c")
+	)
+	(hierarchical_label "2Ω IN"
+		(shape input)
+		(at 55.626 57.912 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a544fd9e-71e5-478e-b9dd-13617dfe3932")
+	)
+	(hierarchical_label "SENSE3"
+		(shape input)
+		(at 107.95 60.198 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa0a1a4e-a7f2-40e0-b3ca-be3e10fac2d7")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 135.636 86.868 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acc01b89-f5b8-44a9-904f-c3b66099ef3e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 135.89 58.166 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b210ecbb-6491-4a34-9332-9ba602ad9c33")
+	)
+	(hierarchical_label "1-"
+		(shape input)
+		(at 115.316 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8f5b9d1-3e78-4d2a-ace9-14b653d74179")
+	)
+	(hierarchical_label "PY+"
+		(shape input)
+		(at 97.536 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcb50582-a7d3-4acf-824f-cf77e41ac3fc")
+	)
+	(hierarchical_label "SENSE5"
+		(shape input)
+		(at 107.95 88.138 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd678768-5961-4ad5-a630-1405d7c8aaec")
+	)
+	(hierarchical_label "SENSE2"
+		(shape input)
+		(at 107.95 27.178 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfdc4d46-c4c1-4f7e-8b52-f469164fb2ca")
+	)
+	(hierarchical_label "PY6"
+		(shape input)
+		(at 129.54 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e38cd8ab-ed29-4675-b83b-98bd2cdddfbb")
+	)
+	(hierarchical_label "SENSE4"
+		(shape input)
+		(at 107.95 55.118 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb79005c-bd48-41f1-8c8a-21dcaf847baf")
+	)
+	(hierarchical_label "PY2"
+		(shape input)
+		(at 130.048 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee1076e8-6f93-4a4d-b7e3-b3d74fd8e1e8")
+	)
+	(hierarchical_label "PY1"
+		(shape input)
+		(at 130.048 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f08447ee-5446-4a7d-aa37-7a2b9494f7ce")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 51.308 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00716964-866d-46f6-b4d2-d82fb41d13c6")
+		(property "Reference" "R22"
+			(at 127 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 128.778 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 127 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 127 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 127 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 127 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d1d3090-ebd8-4507-b918-db48cd9386af")
+		)
+		(pin "2"
+			(uuid "474f216a-999a-4ec5-a998-e14e46f93a6d")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 102.87 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0793ae46-d392-4d99-a9c9-4297318fe8c1")
+		(property "Reference" "R29"
+			(at 104.902 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27kΩ"
+			(at 105.664 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91255a9b-c4c6-48a3-a0db-2650444155d6")
+		)
+		(pin "2"
+			(uuid "78ca3785-9faf-4ce4-82d2-d6526c51e115")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 126.746 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "178e5162-9815-469b-bf74-f8df9a419449")
+		(property "Reference" "R20"
+			(at 126.746 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 128.524 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 126.746 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 126.746 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 126.746 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 126.746 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 126.746 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 126.746 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 126.746 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30e882c9-f217-48cd-9f14-91aa41f154e1")
+		)
+		(pin "2"
+			(uuid "6804a78b-6c2a-44db-b2fa-94996a55395a")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rev3_components:SI7232DN-T1-GE3")
+		(at 123.698 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d4ce4a9-3a3f-44da-af7e-cb94759c787d")
+		(property "Reference" "Q3"
+			(at 119.8895 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI7232DN-T1-GE3"
+			(at 119.8895 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rev3footprints:TRANS_SI7232DN-T1-GE3"
+			(at 123.698 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.698 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.698 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 123.698 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 123.698 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 123.698 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 123.698 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a48b4803-a6d2-4ff8-9427-32bfe52755f0")
+		)
+		(pin "6"
+			(uuid "ca88d184-5b87-49d6-af32-aee5125b4bd8")
+		)
+		(pin "3"
+			(uuid "88c7e8b0-1ee5-4645-845e-dc8d1c8003da")
+		)
+		(pin "2"
+			(uuid "521308d1-23fc-4f48-91a5-d9cd7b259e54")
+		)
+		(pin "1"
+			(uuid "5b67f75a-d3f5-4b4a-a8f6-42963702470f")
+		)
+		(pin "4"
+			(uuid "e657c57e-218c-45c7-af62-4d8296de0fa7")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 111.76 34.544 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2137a16f-7226-4ae3-96dc-a485088dcb6b")
+		(property "Reference" "R19"
+			(at 111.76 32.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 113.538 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.76 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 111.76 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 111.76 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 111.76 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 111.76 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f9b44ff-dc18-4d61-9519-967c27c338b2")
+		)
+		(pin "2"
+			(uuid "a4cb9ade-b16a-466b-b958-22d2891cefec")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 111.252 90.424 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "302f0f23-ba7f-4bb6-ad33-f4f00e6d87fc")
+		(property "Reference" "R15"
+			(at 111.252 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 113.03 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.252 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.252 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.252 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 111.252 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 111.252 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 111.252 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 111.252 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "348fac41-5c47-4550-b660-89224503795c")
+		)
+		(pin "2"
+			(uuid "d879e490-6b64-4b7a-b622-998f7fbf128b")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 126.746 87.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "631a9ca1-9f5b-4947-a529-b3fc675dcaa5")
+		(property "Reference" "R21"
+			(at 126.746 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 128.524 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 126.746 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 126.746 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 126.746 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 126.746 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 126.746 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 126.746 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 126.746 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0a4ce1e-67c8-4833-9b0b-8be5b255d9d2")
+		)
+		(pin "2"
+			(uuid "b4c73186-c4d1-469d-8444-9dc0e9831ea1")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 102.87 58.928 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64053999-8a2b-4103-8e2c-0db3f29d4759")
+		(property "Reference" "R28"
+			(at 104.902 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27kΩ"
+			(at 105.664 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.87 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 102.87 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 102.87 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 102.87 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 102.87 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfd535c8-a793-4e15-a431-d630a7880805")
+		)
+		(pin "2"
+			(uuid "e63ad6a5-22d1-40d6-9902-f6569f440282")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 111.506 61.722 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71800de3-4b64-42be-a964-0a894971e4c9")
+		(property "Reference" "R17"
+			(at 111.506 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 113.284 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.506 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.506 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.506 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 111.506 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 111.506 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 111.506 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 111.506 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b4e4478-5d4e-4762-8ca8-ca0ab9aab2d0")
+		)
+		(pin "2"
+			(uuid "1ad721a7-208f-4840-a73d-d86b6a4ac25c")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rev3_components:SI7232DN-T1-GE3")
+		(at 124.206 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d46c950-5dbc-4958-9b53-40efd4f99e1d")
+		(property "Reference" "Q1"
+			(at 120.3975 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI7232DN-T1-GE3"
+			(at 120.3975 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rev3footprints:TRANS_SI7232DN-T1-GE3"
+			(at 124.206 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.206 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.206 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 124.206 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 124.206 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 124.206 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 124.206 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "84b752b7-06c2-43a8-b24b-447d7e3538f0")
+		)
+		(pin "6"
+			(uuid "9f19fbb5-24b8-4d9e-a2d1-a506da4e6c7e")
+		)
+		(pin "3"
+			(uuid "8d0bcc56-8b08-4caa-be56-5220eaf0aeab")
+		)
+		(pin "2"
+			(uuid "16dc92ec-b59a-4935-8493-15be0c3c0da7")
+		)
+		(pin "1"
+			(uuid "05dd2a93-9ff3-43c8-a878-7fe6eaf0b0e8")
+		)
+		(pin "4"
+			(uuid "b87b8911-ce90-4bce-809c-b9014fe56576")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127.254 31.75 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ec73505-f46d-4c86-92bf-b510b7b085a1")
+		(property "Reference" "R25"
+			(at 127.254 29.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 129.032 28.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127.254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 127.254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 127.254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 127.254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 127.254 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a75b4f81-e496-4674-b8bc-eb5c6fe36011")
+		)
+		(pin "2"
+			(uuid "30c546aa-153b-4c72-a0df-e0b49b599267")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 111.506 52.578 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad59e61b-430d-49b9-9750-04a60e35dda8")
+		(property "Reference" "R16"
+			(at 111.506 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 113.284 55.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.506 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.506 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.506 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 111.506 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 111.506 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 111.506 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 111.506 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9174042a-437e-48b7-a9d0-0d24e907143e")
+		)
+		(pin "2"
+			(uuid "372a264c-4887-4967-882c-1f214ebd5186")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 111.252 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af1a97f8-0bf5-4146-bcac-32a50eecda53")
+		(property "Reference" "R14"
+			(at 111.252 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 113.03 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 111.252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 111.252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 111.252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 111.252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "986ad206-cbc7-45f0-9b77-355ddff27c61")
+		)
+		(pin "2"
+			(uuid "d6534f7c-1f08-4475-9fa3-43094cd9da98")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 102.87 88.138 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb67c269-d245-4049-840f-513eccb2f7cc")
+		(property "Reference" "R30"
+			(at 104.902 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27kΩ"
+			(at 105.664 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.87 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 102.87 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 102.87 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 102.87 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 102.87 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fb6975f-7e8d-45d6-8dec-29c01da8f1d7")
+		)
+		(pin "2"
+			(uuid "4cfba787-f059-4061-81d4-a568befb9d55")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127.254 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c066fb41-3c55-4332-8e55-d55649ba3e8f")
+		(property "Reference" "R24"
+			(at 127.254 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 129.032 26.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127.254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 127.254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 127.254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 127.254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 127.254 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "088a22f1-d358-4771-a4cc-a1f5bdd6e65f")
+		)
+		(pin "2"
+			(uuid "f52f6aa4-87db-4dc6-8f71-e2c1890afb0c")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 102.87 32.258 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1856423-bc1e-4b76-a7f9-57480c2efbda")
+		(property "Reference" "R26"
+			(at 104.902 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27kΩ"
+			(at 105.664 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.87 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 102.87 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 102.87 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 102.87 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 102.87 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a858b2f9-cb8a-4de0-965b-c619afccabac")
+		)
+		(pin "2"
+			(uuid "5751a9b6-de80-4c59-9bf6-bbfe691daacd")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 111.76 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6b0e887-1673-4e87-98cd-7c11775045ed")
+		(property "Reference" "R18"
+			(at 111.76 27.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 113.538 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00e9451b-c58d-4a89-84f7-65f07bab2431")
+		)
+		(pin "2"
+			(uuid "598f4000-047d-4ecc-859b-0dd4446e75a0")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 58.928 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4b929fe-b39e-457d-a154-e02bc5efca00")
+		(property "Reference" "R23"
+			(at 127 56.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 128.778 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 127 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 127 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 127 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 127 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d45d44fd-3be6-4785-a8c6-536b9c874b8d")
+		)
+		(pin "2"
+			(uuid "f2ca093f-1963-4588-8984-3c1c90776e88")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 102.87 55.118 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9a267d5-329a-4b8a-86ee-a6923ae410d3")
+		(property "Reference" "R27"
+			(at 104.902 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27kΩ"
+			(at 105.664 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.87 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 102.87 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 102.87 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 102.87 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 102.87 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4509561e-a1b6-4dda-ba78-00aff39cf2ec")
+		)
+		(pin "2"
+			(uuid "40146013-bee7-4e3e-b1ef-7864e417521a")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 102.87 28.448 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fceccc5a-0dd5-44fe-a538-5e42cfec5a90")
+		(property "Reference" "R11"
+			(at 104.902 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27kΩ"
+			(at 105.664 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.87 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 102.87 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 102.87 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 102.87 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 102.87 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf94a612-666e-4ced-a40d-658b1417729d")
+		)
+		(pin "2"
+			(uuid "62410e9e-6cd0-4401-9df1-e19a69e3aad6")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rev3_components:SI7232DN-T1-GE3")
+		(at 123.952 60.198 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd8ac499-06a5-4467-94b3-3c3f0f957d57")
+		(property "Reference" "Q2"
+			(at 120.1435 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI7232DN-T1-GE3"
+			(at 120.1435 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rev3footprints:TRANS_SI7232DN-T1-GE3"
+			(at 123.952 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.952 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.952 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 123.952 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 123.952 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 123.952 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" ""
+			(at 123.952 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8f980f15-3c88-4e67-9b37-6a6759ddfb36")
+		)
+		(pin "6"
+			(uuid "e62000ba-658c-4ae2-8c53-8d33ac58ea6f")
+		)
+		(pin "3"
+			(uuid "165c7454-770a-4ba0-a6f6-1850505ef6b0")
+		)
+		(pin "2"
+			(uuid "b71168fe-170d-4c5b-83f3-0f1c17343002")
+		)
+		(pin "1"
+			(uuid "7f8a78fc-5577-4334-8dd6-4461f0ae4ae4")
+		)
+		(pin "4"
+			(uuid "6c3b5eb8-1c99-4d3a-875a-c99cfc77c8b5")
+		)
+		(instances
+			(project "SAP Mk3.2"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/0b921805-40d6-4f14-880f-0915fc9edf26"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
