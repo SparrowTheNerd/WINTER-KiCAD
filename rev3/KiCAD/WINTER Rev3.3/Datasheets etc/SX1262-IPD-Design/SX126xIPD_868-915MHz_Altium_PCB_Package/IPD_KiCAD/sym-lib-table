@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 0)
-  (lib (name "IPD_KiCAD-altium-import")(type "KiCad")(uri "${KIPRJMOD}/IPD_KiCAD-altium-import.kicad_sym")(options "")(descr ""))
-)
