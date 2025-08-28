@@ -4527,6 +4527,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TPS7A20xxxDQN")
+		(at 205.74 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f42edec-43c9-4107-a613-060071f4f7cc")
+		(property "Reference" "U15"
+			(at 205.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7A20xxxDQN"
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm"
+			(at 205.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+			(at 205.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5"
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fca87ceb-fbd3-4ed1-9c7e-c3063ed65110")
+		)
+		(pin "2"
+			(uuid "74de7ad1-6239-4589-be90-e81105803e80")
+		)
+		(pin "3"
+			(uuid "1b503c02-8afd-49c9-be37-287f75b5575a")
+		)
+		(pin "1"
+			(uuid "64a2484d-1826-4d7f-91a9-3b5f95f0131f")
+		)
+		(pin "5"
+			(uuid "5cda318e-fdf8-4026-99c0-97240011ce43")
+		)
+		(instances
+			(project ""
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/291ae41e-8f75-444f-8dd6-d72f3862478e"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 182.88 104.14 0)
 		(unit 1)
@@ -5302,83 +5379,6 @@
 			(project "SAP Mk3.3"
 				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/291ae41e-8f75-444f-8dd6-d72f3862478e"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TPS7A20xxxDQN")
-		(at 205.74 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0709647-b514-4686-9638-b9726c606479")
-		(property "Reference" "U14"
-			(at 205.74 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS7A20135PDQN"
-			(at 205.74 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_1.2x1.2mm_P0.4mm_EP0.3x0.94mm_PullBack"
-			(at 205.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
-			(at 205.74 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5"
-			(at 205.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "967a748c-75b8-475d-b8eb-b4d5f1ba0672")
-		)
-		(pin "2"
-			(uuid "d9b3764d-13cd-4053-89c1-e52ec6b767f1")
-		)
-		(pin "3"
-			(uuid "737c0e22-d76f-42e3-9d9b-bf8824bf87a8")
-		)
-		(pin "5"
-			(uuid "7cca8529-d427-4161-8ed3-9dad77f3bc40")
-		)
-		(pin "1"
-			(uuid "1a9ce44d-80cd-4413-898b-3ee5a36e6005")
-		)
-		(instances
-			(project ""
-				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/291ae41e-8f75-444f-8dd6-d72f3862478e"
-					(reference "U14")
 					(unit 1)
 				)
 			)
