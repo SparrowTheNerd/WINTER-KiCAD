@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "WINTER 915MHz LoRa Radio")
-		(date "2025-01-06")
-		(rev "3.3")
+		(date "2025-08-28")
+		(rev "4-Dev")
 		(company "SparrowTheNerd")
 	)
 	(lib_symbols
@@ -3471,6 +3471,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 60.96) (xy 149.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e77d48e-f9f2-43c7-8647-74746eb6738a")
+	)
+	(wire
+		(pts
 			(xy 68.58 153.67) (xy 81.28 153.67)
 		)
 		(stroke
@@ -3908,6 +3918,16 @@
 			(type default)
 		)
 		(uuid "f447aeb8-921a-4ae3-99fa-b8faa4024ae4")
+	)
+	(wire
+		(pts
+			(xy 149.86 68.58) (xy 149.86 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f799e68c-e030-4b5f-b2e5-3ea77b5cb348")
 	)
 	(wire
 		(pts
@@ -6603,7 +6623,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LVC2T45DC"
+		(property "Value" "SN74LVC2T45DC"
 			(at 95.504 167.64 0)
 			(effects
 				(font
@@ -6612,7 +6632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 91.44 177.8 0)
 			(effects
 				(font
