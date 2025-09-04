@@ -37,9 +37,9 @@
         "other_text_thickness": 0.25,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.937,
-          "width": 1.2
+          "drill": 1.5,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -197,7 +197,8 @@
         0.15,
         0.2,
         0.3,
-        0.5
+        0.5,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -558,6 +559,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"

@@ -151,19 +151,527 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WINTER_components:GGBLA.01.A"
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "AE"
-				(at -8.636 -3.556 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WINTER_components:2998TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at -3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "2998TR"
+				(at -3.81 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Battery:BatteryHolder_Keystone_2998_1x6.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "2998"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.18mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "2998TR_0_0"
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.54) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WINTER_components:CB501F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CB501F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -171,7 +679,7 @@
 					)
 				)
 			)
-			(property "Footprint" "WINTERfootprints:GGBLA.01.A"
+			(property "Footprint" "WINTERfootprints:CB501F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -198,10 +706,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "GGBLA.01.A_0_1"
+			(symbol "CB501F_0_1"
 				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 0)
+					(start -6.35 2.54)
+					(end 6.35 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -210,25 +718,12 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -3.81 3.175) (xy -5.715 5.08) (xy -1.905 5.08) (xy -3.81 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 98 110 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "GGBLA.01.A_1_1"
-				(pin input line
-					(at -3.81 -2.54 90)
+			(symbol "CB501F_1_1"
+				(pin power_in line
+					(at -8.89 1.27 0)
 					(length 2.54)
-					(name ""
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -243,8 +738,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at 0 -2.54 90)
+					(at 8.89 1.27 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -254,24 +767,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 -2.54 90)
-					(length 2.54)
-					(name "FTE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1014,22 +1509,22 @@
 		(uuid "5a69a50c-36d9-431a-aafc-9ab9b7c13b80")
 	)
 	(junction
-		(at 184.15 97.79)
+		(at 168.91 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c67cb4b-fbc2-4937-9465-04f9c85be0e3")
+		(uuid "0eca2650-c80c-4c96-b386-71e91263a96a")
 	)
 	(junction
-		(at 191.77 97.79)
+		(at 209.55 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e3dd397-55eb-4084-b921-56763ed875b1")
+		(uuid "2ed3e897-fe4c-46fb-8eac-bc7fbfebbe4f")
 	)
 	(junction
-		(at 176.53 97.79)
+		(at 85.09 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "28735317-8beb-4a45-ab6e-cd13e236ab02")
+		(uuid "4a931588-d204-4489-8620-74407684bfc1")
 	)
 	(junction
 		(at 111.76 97.79)
@@ -1044,16 +1539,46 @@
 		(uuid "837436b5-34fc-49a2-b7a3-7afa77f7d8ce")
 	)
 	(junction
+		(at 81.28 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86c0fb33-cd51-4e47-ae21-ec39d51549c8")
+	)
+	(junction
 		(at 156.21 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e1184ee-1316-4051-8ab9-49ee5cd66ac4")
 	)
 	(junction
-		(at 163.83 97.79)
+		(at 196.85 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfa805eb-10a4-455d-9026-7ecdbe87efac")
+		(uuid "a0917db3-47af-439d-922f-ebd969cfd9b7")
+	)
+	(junction
+		(at 184.15 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b38cb862-200e-4fca-a06b-a47c39bdce6d")
+	)
+	(junction
+		(at 76.2 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e43adc8d-6a43-4c4e-abd8-66e01e4197c7")
+	)
+	(junction
+		(at 165.1 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f073fa47-6471-4921-b28a-82252d2c1d04")
+	)
+	(junction
+		(at 172.72 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7a0d42e-03ec-406e-a7e7-c7aa64b328f8")
 	)
 	(no_connect
 		(at 156.21 80.01)
@@ -1084,10 +1609,6 @@
 		(uuid "e03ee0a3-30ed-42b6-acfe-021edb6634b0")
 	)
 	(no_connect
-		(at 111.76 92.71)
-		(uuid "e97d87e0-3e8b-455b-b754-91635fed742f")
-	)
-	(no_connect
 		(at 111.76 82.55)
 		(uuid "f8ccf4b5-1985-4456-a023-69e52fd32d31")
 	)
@@ -1113,23 +1634,43 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 105.41) (xy 176.53 102.87)
+			(xy 196.85 93.98) (xy 195.58 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07801fab-0aea-4716-9e99-0a12319e9eeb")
+		(uuid "0727623f-9b70-48d9-93ae-3665b954fab7")
 	)
 	(wire
 		(pts
-			(xy 191.77 99.06) (xy 191.77 97.79)
+			(xy 172.72 97.79) (xy 196.85 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26029d6f-35c9-442d-b04b-377e85cd5a9d")
+		(uuid "174988fb-67b9-43fd-832e-f7ed45e11c10")
+	)
+	(wire
+		(pts
+			(xy 76.2 67.31) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193a0d6a-8dda-4404-98d1-996fedd02f3b")
+	)
+	(wire
+		(pts
+			(xy 105.41 92.71) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2278724f-f57c-44a3-b1e5-9b25cc78b0af")
 	)
 	(wire
 		(pts
@@ -1143,6 +1684,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 93.98) (xy 190.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbb2166-87f8-4cb5-9314-0af0798b84c2")
+	)
+	(wire
+		(pts
 			(xy 107.95 99.06) (xy 107.95 97.79)
 		)
 		(stroke
@@ -1153,23 +1704,33 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 97.79) (xy 163.83 97.79)
+			(xy 175.26 83.82) (xy 177.8 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31486074-35d2-42d3-80ef-0e33fa49a557")
+		(uuid "311a4fa0-74e7-4464-8d4a-7f89ecae95f7")
 	)
 	(wire
 		(pts
-			(xy 191.77 104.14) (xy 191.77 105.41)
+			(xy 165.1 102.87) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40e830fa-a37e-4fc6-ad73-7f8d5457d0ca")
+		(uuid "315693dd-b2a7-4819-82e7-ea333717aff7")
+	)
+	(wire
+		(pts
+			(xy 171.45 97.79) (xy 172.72 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485782a6-7c2d-49b5-8512-25925af251a2")
 	)
 	(wire
 		(pts
@@ -1183,6 +1744,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 83.82) (xy 209.55 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582ee1f8-cd86-4d50-bba0-1b88d81e375f")
+	)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 105.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba3154e-d087-42b4-aacb-0df1cf523862")
+	)
+	(wire
+		(pts
 			(xy 104.14 74.93) (xy 111.76 74.93)
 		)
 		(stroke
@@ -1190,6 +1771,16 @@
 			(type default)
 		)
 		(uuid "5c39bf11-4800-4d89-bd4c-05f20d3d2031")
+	)
+	(wire
+		(pts
+			(xy 209.55 83.82) (xy 210.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2d9f4b-10a7-42d9-9cb3-fd276d45f7e7")
 	)
 	(wire
 		(pts
@@ -1213,6 +1804,36 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 77.47) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e695a8-147d-4afd-a4de-3ea2c0337ebc")
+	)
+	(wire
+		(pts
+			(xy 184.15 83.82) (xy 184.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6411d581-5bb5-4f4e-9299-9a9ac2eeb31b")
+	)
+	(wire
+		(pts
+			(xy 85.09 93.98) (xy 85.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680d941f-7888-41cc-9d79-460e5f39bc14")
+	)
+	(wire
+		(pts
 			(xy 105.41 96.52) (xy 105.41 97.79)
 		)
 		(stroke
@@ -1220,26 +1841,6 @@
 			(type default)
 		)
 		(uuid "698b936e-b0c6-41b4-91af-c662b62ad32f")
-	)
-	(wire
-		(pts
-			(xy 163.83 97.79) (xy 167.64 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "715c232a-8231-44e4-89b4-2b1243f7fd9b")
-	)
-	(wire
-		(pts
-			(xy 172.72 97.79) (xy 176.53 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764396a7-0954-4709-97c4-d479e825b7d8")
 	)
 	(wire
 		(pts
@@ -1253,23 +1854,73 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 105.41) (xy 163.83 102.87)
+			(xy 196.85 93.98) (xy 198.12 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89eae101-f48a-4003-b8dc-8564ee533117")
+		(uuid "8546e545-b618-465b-b2c5-6a56d471746c")
 	)
 	(wire
 		(pts
-			(xy 185.42 97.79) (xy 184.15 97.79)
+			(xy 203.2 93.98) (xy 204.47 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aafc9784-5555-4a3d-abd6-e4ba19957bbb")
+		(uuid "8ee969e8-088d-426c-bd75-54b769e4bf9e")
+	)
+	(wire
+		(pts
+			(xy 172.72 102.87) (xy 168.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994ebfa3-f06e-48cc-8d81-b049a959659c")
+	)
+	(wire
+		(pts
+			(xy 85.09 88.9) (xy 85.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c10ff44-0c1b-4d89-ba6a-f791256defd5")
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eaf06d5-19b8-4f0c-aea6-ab7e7fbde463")
+	)
+	(wire
+		(pts
+			(xy 156.21 97.79) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35a42ec-7f95-417d-ae77-77ae1b762b39")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 85.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ffb70f-fbe8-4473-b6ca-8c3527a64ebf")
 	)
 	(wire
 		(pts
@@ -1283,23 +1934,33 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 90.17) (xy 184.15 97.79)
+			(xy 182.88 83.82) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b718303e-58f6-4f79-95ed-d567e68cdbbb")
+		(uuid "bb21aada-567d-4b98-9407-3084f8806fc3")
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 184.15 97.79)
+			(xy 184.15 83.82) (xy 187.96 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c84da96e-a33f-45df-8c2a-6f725d3eba20")
+		(uuid "c6ba5d89-aa05-4b50-81b9-ad36565f687e")
+	)
+	(wire
+		(pts
+			(xy 196.85 90.17) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca052089-e2e4-49ce-b64b-7eb8d37d63d0")
 	)
 	(wire
 		(pts
@@ -1333,43 +1994,83 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 90.17) (xy 191.77 97.79)
+			(xy 81.28 101.6) (xy 76.2 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2fd2a98-92fa-42bc-83c4-1bf0790855eb")
+		(uuid "ddd75934-a8af-4a1d-ac43-a02d16c0845a")
 	)
 	(wire
 		(pts
-			(xy 190.5 97.79) (xy 191.77 97.79)
+			(xy 168.91 102.87) (xy 168.91 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5484a92-ef38-4e10-bd48-ec16c1e83afc")
+		(uuid "df3c923d-7d1d-43e4-89e7-889c7b1a603e")
 	)
-	(label "GPS-Match"
-		(at 182.88 97.79 180)
-		(effects
-			(font
-				(size 0.75 0.75)
-			)
-			(justify right bottom)
+	(wire
+		(pts
+			(xy 215.9 83.82) (xy 218.44 83.82)
 		)
-		(uuid "af551428-7808-4ad9-a37d-3a4f4620d788")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7484910-269e-4b04-8aed-5cf163182c94")
 	)
-	(label "GPS-IN"
-		(at 158.75 97.79 0)
-		(effects
-			(font
-				(size 0.75 0.75)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 165.1 97.79) (xy 166.37 97.79)
 		)
-		(uuid "be5d7bf0-2eea-49dc-8729-ca0c5f744eb7")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4b5a09-bf7c-4bfd-8c32-3b2ebcca6d0b")
+	)
+	(wire
+		(pts
+			(xy 196.85 97.79) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd82da7-6d08-4959-af2b-39183f60f1f8")
+	)
+	(wire
+		(pts
+			(xy 205.74 83.82) (xy 209.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee22f9b6-777d-43f4-8153-318c9f1f149f")
+	)
+	(wire
+		(pts
+			(xy 85.09 101.6) (xy 81.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f291129e-8f89-4480-8284-8ce2cabfa489")
+	)
+	(wire
+		(pts
+			(xy 76.2 86.36) (xy 85.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e9fae5-2d05-4fec-9539-a39972f20c40")
 	)
 	(global_label "SCL"
 		(shape bidirectional)
@@ -1423,7 +2124,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "08583982-54ad-4c16-a138-c27bbe2ebc28")
 		(property "Reference" "#PWR0164"
 			(at 105.41 100.33 0)
@@ -1435,7 +2135,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 105.41 91.44 0)
+			(at 101.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1476,6 +2176,308 @@
 			(project "SAP Mk3.3"
 				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
 					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 193.04 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "13dd7f76-c58d-4132-8589-375c3062a78c")
+		(property "Reference" "C33"
+			(at 194.564 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 195.326 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "GCM0335C1E470JA16D"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C85908"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser ID" ""
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2db4034-6109-4fcb-a14d-f60af3922bf9")
+		)
+		(pin "2"
+			(uuid "20ddcb95-219f-44cc-a8db-3ecc9d05de16")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WINTER_components:2998TR")
+		(at 76.2 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14497a19-4edd-47a0-a1c2-eb7599928b99")
+		(property "Reference" "BT1"
+			(at 72.39 94.6151 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2998TR"
+			(at 72.39 92.0751 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_2998_1x6.8mm"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MS621FE Battery"
+			(at 73.152 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "K"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "2998"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.18mm"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P1"
+			(uuid "8ba7088b-1ffa-4415-9609-ea87c2ac9a85")
+		)
+		(pin "N"
+			(uuid "33b90e7f-27c3-4899-80da-b3c644ee00e7")
+		)
+		(pin "P2"
+			(uuid "97304bee-7adc-4662-8d3e-6aa2b6fa9648")
+		)
+		(instances
+			(project ""
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 175.26 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a314367-1ea0-43d8-9468-0a49fdcfdda8")
+		(property "Reference" "#PWR09"
+			(at 175.26 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 175.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80a0d701-d075-4fa3-86d5-ac098ec180b3")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1548,100 +2550,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 163.83 105.41 0)
-		(mirror y)
+		(lib_id "Device:D_Schottky")
+		(at 76.2 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "39eca86f-e5b9-42f3-94c8-c6864d6eab1f")
-		(property "Reference" "#PWR011"
-			(at 163.83 111.76 0)
+		(fields_autoplaced yes)
+		(uuid "3c6554e2-2a3b-4be7-a826-c2c9f4ff451f")
+		(property "Reference" "D4"
+			(at 78.74 72.7074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 163.83 109.22 0)
+		(property "Value" "CUS05S40,H3F"
+			(at 78.74 75.2474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 163.83 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 163.83 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d558c8d-cf3c-4245-929e-acbf0567567b")
-		)
-		(instances
-			(project "SAP Mk3.3"
-				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 191.77 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b2e73c5-d345-4251-943b-65156fb1aec9")
-		(property "Reference" "C33"
-			(at 194.31 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22pF"
-			(at 193.802 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 191.77 101.6 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +2587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 101.6 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,53 +2595,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 191.77 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 191.77 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price Per Item" ""
-			(at 191.77 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product ID" "GRM1555C1H220JA01D"
-			(at 191.77 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C76960"
-			(at 191.77 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser ID" ""
-			(at 191.77 101.6 0)
+		(property "Description" "Schottky diode"
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,15 +2605,195 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d625699-eee6-4899-86bb-d843c24c265b")
+			(uuid "ae9a40c9-20aa-46fb-b657-e0d2fc54ca27")
 		)
 		(pin "2"
-			(uuid "26a266e2-13c4-43ca-900d-4b80d26540f5")
+			(uuid "5febbc60-ea63-427d-8e60-14b3fa16ea37")
 		)
 		(instances
-			(project "SAP Mk3.3"
+			(project ""
 				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
-					(reference "C33")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 168.91 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46be5609-586c-4a71-8e86-a4ce9f88ca61")
+		(property "Reference" "C39"
+			(at 167.132 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.6pF"
+			(at 166.37 93.3196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "GRT153R61A105ME13D"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser ID" ""
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e493d97-7a01-422a-9ab8-1ae6e0d90709")
+		)
+		(pin "2"
+			(uuid "e869aacf-fb8e-4c21-a545-d5cc0e5e8687")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 218.44 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a076ee9-3240-4bd2-a875-d5c816de84de")
+		(property "Reference" "#PWR010"
+			(at 218.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 218.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "030e635c-8d9f-415c-84b6-34ba00e7d2a1")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -1891,82 +2963,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 176.53 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "501c932b-5069-43c1-8861-0d10c0e3effa")
-		(property "Reference" "#PWR010"
-			(at 176.53 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 176.53 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 176.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf98e9ea-6b9c-4aff-bb71-2fe92df436a9")
-		)
-		(instances
-			(project "SAP Mk3.3"
-				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 170.18 97.79 90)
+		(at 180.34 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "69171ad1-e9e9-4bb7-ab2c-de13913af1c6")
-		(property "Reference" "C31"
-			(at 171.704 94.996 90)
+		(uuid "5bf48451-282f-4070-baf8-3454683d2671")
+		(property "Reference" "C30"
+			(at 181.864 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,8 +2980,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.7pF"
-			(at 172.72 92.964 90)
+		(property "Value" "6.8pF"
+			(at 182.626 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,8 +2989,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 170.18 97.79 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +2999,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 97.79 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +3008,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 170.18 97.79 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +3017,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 170.18 97.79 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +3026,7 @@
 			)
 		)
 		(property "Price Per Item" ""
-			(at 170.18 97.79 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,8 +3034,8 @@
 				(hide yes)
 			)
 		)
-		(property "Product ID" "GRM1555C1H2R7CA01D"
-			(at 170.18 97.79 0)
+		(property "Product ID" "GCM0335C1E470JA16D"
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,8 +3043,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C76963"
-			(at 170.18 97.79 0)
+		(property "LCSC" "C85908"
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +3053,7 @@
 			)
 		)
 		(property "Mouser ID" ""
-			(at 170.18 97.79 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,15 +3062,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b6ba1b4-26b1-4945-942c-5aaa07ed71c7")
+			(uuid "9dc2155f-d567-43a0-a19d-f725e2f9a1c2")
 		)
 		(pin "2"
-			(uuid "50274f4c-4b81-410e-abfe-c8866a122fea")
+			(uuid "c3fe467b-0f90-4f82-bac4-bd01bf1560da")
 		)
 		(instances
-			(project "SAP Mk3.3"
+			(project "WINTER"
 				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
-					(reference "C31")
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 168.91 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69123711-b4c7-4c71-9c40-e47b7eb59e30")
+		(property "Reference" "#PWR011"
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9855844-e145-4295-bf32-0ef261f48025")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2185,220 +3257,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 163.83 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "746a41f4-a35a-4e7e-8fa2-364bc9b0c3b5")
-		(property "Reference" "C34"
-			(at 159.258 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 160.274 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 163.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 163.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price Per Item" ""
-			(at 163.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product ID" ""
-			(at 163.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "DNP"
-			(at 163.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser ID" ""
-			(at 163.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c709940-1cd1-46fa-810c-6649784f94c7")
-		)
-		(pin "2"
-			(uuid "1534359f-2b17-4d78-a9c1-7d1c321dc18d")
-		)
-		(instances
-			(project "SAP Mk3.3"
-				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WINTER_components:GGBLA.01.A")
-		(at 187.96 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74b4a52f-4b35-49f0-9132-5a491f0284e7")
-		(property "Reference" "AE2"
-			(at 195.58 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GGBLA.01.A"
-			(at 195.58 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "WINTERfootprints:GGBLA.01.A"
-			(at 187.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5359159"
-			(at 187.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser ID" "960-GGBLA.01.A "
-			(at 187.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product ID" "GGBLA.01.A"
-			(at 187.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c23a3d35-8324-4797-81ea-dc80cb82af2d")
-		)
-		(pin "3"
-			(uuid "a521aad3-a481-46ff-926a-d02f6208f45a")
-		)
-		(pin "1"
-			(uuid "02aa42c7-e7fe-4588-8609-7c9b77f62069")
-		)
-		(instances
-			(project "SAP Mk3.3"
-				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
-					(reference "AE2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 107.95 106.68 0)
 		(mirror y)
@@ -2465,17 +3323,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 187.96 90.17 0)
-		(mirror y)
+		(lib_id "Device:C_Small")
+		(at 172.72 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9125ac50-f4b0-4aae-b3b0-d4d1704bb27b")
-		(property "Reference" "#PWR0170"
-			(at 187.96 96.52 0)
+		(uuid "887fcef2-d9b8-4409-929d-32d306af9f19")
+		(property "Reference" "C38"
+			(at 176.9364 101.6508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5pF"
+			(at 175.26 102.4128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 172.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,16 +3358,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 187.96 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 90.17 0)
+		(property "Datasheet" "~"
+			(at 172.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,8 +3367,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 187.96 90.17 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,8 +3376,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 187.96 90.17 0)
+		(property "Price" ""
+			(at 172.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 172.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "GRT153R61A105ME13D"
+			(at 172.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 172.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser ID" ""
+			(at 172.72 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,12 +3422,129 @@
 			)
 		)
 		(pin "1"
-			(uuid "5679e630-9dd7-43c8-98be-13f8d539525c")
+			(uuid "d1319da9-85a4-4389-bc0b-11e61fb9e787")
+		)
+		(pin "2"
+			(uuid "f79c1caf-9266-42bd-876d-bdf13f7564bc")
 		)
 		(instances
-			(project "SAP Mk3.3"
+			(project "WINTER"
 				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
-					(reference "#PWR0170")
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 213.36 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ee3c54a-3ccc-4f1f-96fe-1eb940649582")
+		(property "Reference" "C31"
+			(at 214.884 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7pF"
+			(at 215.646 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "GCM0335C1E470JA16D"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C85908"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser ID" ""
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24a08953-993d-4213-9dcb-06c22657af2a")
+		)
+		(pin "2"
+			(uuid "132075ac-cd24-44e5-92af-8b3d99ef7622")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -2598,34 +3618,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 176.53 100.33 0)
+		(lib_id "power:+3V3")
+		(at 76.2 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aa7178e6-1b0b-407e-a3f4-52de2b192d09")
-		(property "Reference" "C30"
-			(at 170.434 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.8pF"
-			(at 169.926 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 176.53 100.33 0)
+		(uuid "95573433-9d46-4ca0-8a5a-b43e3bbdc920")
+		(property "Reference" "#PWR017"
+			(at 76.2 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,219 +3635,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price Per Item" ""
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product ID" "GRM1555C1HR80WA01D"
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C88902"
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser ID" ""
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16cc14f7-05fc-4ac4-a960-07fe260c6c82")
-		)
-		(pin "2"
-			(uuid "46d49bc9-f0fa-4cfd-b3fd-1f9d5fb413bb")
-		)
-		(instances
-			(project "SAP Mk3.3"
-				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 187.96 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d58b1af0-eb59-4170-9fa3-a85a26063e59")
-		(property "Reference" "C32"
-			(at 189.738 94.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.5pF"
-			(at 191.008 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price Per Item" ""
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product ID" "GRM1555C1HR50CA01D"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C76987"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser ID" ""
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f84c92f4-521e-4f7e-a61c-598d02e736e4")
-		)
-		(pin "2"
-			(uuid "415ecfd9-ab0e-4cf7-877a-7c69b22179c6")
-		)
-		(instances
-			(project "SAP Mk3.3"
-				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 191.77 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8f0dabb-fdbe-418e-ae80-d0534eacc33e")
-		(property "Reference" "#PWR09"
-			(at 191.77 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 191.77 109.22 0)
+		(property "Value" "+3V3"
+			(at 72.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +3644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 105.41 0)
+			(at 76.2 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +3653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 105.41 0)
+			(at 76.2 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,8 +3661,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 191.77 105.41 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 76.2 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2880,12 +3671,833 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e1c7763-122f-4f9a-8e9d-94ffc92d37ad")
+			(uuid "e7f52afe-c59b-4d40-85f6-fe21f9386a0c")
 		)
 		(instances
-			(project "SAP Mk3.3"
+			(project "WINTER"
 				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
-					(reference "#PWR09")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b1c32888-fbb6-4fd2-bbf3-c2ac9f2ff3e4")
+		(property "Reference" "C34"
+			(at 202.184 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 202.946 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "GCM0335C1E470JA16D"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C85908"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser ID" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30181992-91de-4ed3-ae33-5c2cc0b192f1")
+		)
+		(pin "2"
+			(uuid "cf91b4dc-cdad-4b69-9ecd-ccef77284afa")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 76.2 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b59e9260-e805-4df1-8ef9-a676652bb83a")
+		(property "Reference" "R1"
+			(at 76.2 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 77.978 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "RMCF0603JT27K0"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22967"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser ID" ""
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e88d1454-c73a-42dd-91df-02d89676b142")
+		)
+		(pin "2"
+			(uuid "964cf1f3-3976-4857-b3cf-33f035100894")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 85.09 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2dbd00a-50a9-4007-89d6-3fc03718dcef")
+		(property "Reference" "C35"
+			(at 80.8736 90.1192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 82.55 89.3572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "GRT153R61A105ME13D"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser ID" ""
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4ca24fc-5ff5-46cd-9f46-6e3c449ebfca")
+		)
+		(pin "2"
+			(uuid "f6b7ac1e-fb48-4575-8821-66b63cbf23aa")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 165.1 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "df068274-192b-42d7-a4b9-354fd9524979")
+		(property "Reference" "C37"
+			(at 160.8836 99.0092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 162.56 98.2472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "GRT153R61A105ME13D"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser ID" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c06ead7-d9cc-417c-90a8-93b7ab694555")
+		)
+		(pin "2"
+			(uuid "bb1e8406-0d58-4753-90b2-058bc3d2dc09")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 81.28 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f32046e1-2d67-4818-a23f-23e7f29e13dc")
+		(property "Reference" "#PWR016"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 81.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0ef6875-fead-4658-9eb9-d58205695a2d")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 207.01 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "f3aaea39-cec8-4860-b23c-d206d3a383b7")
+		(property "Reference" "C36"
+			(at 208.534 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 209.296 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "GCM0335C1E470JA16D"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C85908"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser ID" ""
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b159b8ae-92ab-45c7-adec-59a4742352fe")
+		)
+		(pin "2"
+			(uuid "54f814a0-1909-4e09-8fb7-7432ba70cbc6")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WINTER_components:CB501F")
+		(at 196.85 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5784e63-83c4-4885-ba4a-9bb247e6a5eb")
+		(property "Reference" "AE2"
+			(at 196.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CB501F"
+			(at 196.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WINTERfootprints:CB501F"
+			(at 196.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "004160e7-775c-463e-a94d-a3196923e85b")
+		)
+		(pin "2"
+			(uuid "e37d5733-e895-4e95-8164-52d89b6301a9")
+		)
+		(pin "1"
+			(uuid "21d3cb3e-108e-44a7-8502-b776b788e776")
+		)
+		(instances
+			(project ""
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "AE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 186.69 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "fa64636f-c0b5-42d2-b4a0-d399c1af283d")
+		(property "Reference" "C32"
+			(at 188.214 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 188.976 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "GCM0335C1E470JA16D"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C85908"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser ID" ""
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "727b0004-b65b-4baa-9099-a1cc2f46660b")
+		)
+		(pin "2"
+			(uuid "5bc6ccc3-176d-4b4d-ab86-5697f4264507")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/3b582597-bfbe-40ae-9182-1a0f1466fb38"
+					(reference "C32")
 					(unit 1)
 				)
 			)
