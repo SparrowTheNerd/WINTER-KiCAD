@@ -37,9 +37,9 @@
         "other_text_thickness": 0.25,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.5,
-          "height": 2.5,
-          "width": 2.5
+          "drill": 0.0,
+          "height": 0.4,
+          "width": 0.46
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -59,7 +59,60 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|150645711|101280000|581eaf66-3889-4b8c-a60e-b23441407b60|69bfcbdb-294d-452f-9f1b-d28c82847a92",
+          ""
+        ],
+        [
+          "clearance|151212114|101472175|fb0b8537-5dae-4246-8550-551a1287f387|69bfcbdb-294d-452f-9f1b-d28c82847a92",
+          ""
+        ],
+        [
+          "clearance|151404289|100880000|4c1eff06-e0ea-4afb-afde-decf62fb3581|69bfcbdb-294d-452f-9f1b-d28c82847a92",
+          ""
+        ],
+        [
+          "silk_edge_clearance|138113508|116600000|880f784f-0887-4cc9-aab8-9cf8e5d4c980|d1410506-43aa-42fb-b77f-af7c98a16810",
+          ""
+        ],
+        [
+          "silk_edge_clearance|138130291|85538999|510d2e48-0798-4a84-a8db-f7dfcb1688fd|f18560fa-f2f9-44f5-9db8-76d5b504c424",
+          ""
+        ],
+        [
+          "solder_mask_bridge|171687501|85000000|1876d990-5727-45a0-abe7-a9124dd06b36|0ae07b71-8d09-4cdc-92de-bfd6ad5adb68",
+          ""
+        ],
+        [
+          "solder_mask_bridge|172150000|85000000|1876d990-5727-45a0-abe7-a9124dd06b36|0ae07b71-8d09-4cdc-92de-bfd6ad5adb68",
+          ""
+        ],
+        [
+          "solder_mask_bridge|172221117|85071117|1876d990-5727-45a0-abe7-a9124dd06b36|0ae07b71-8d09-4cdc-92de-bfd6ad5adb68",
+          ""
+        ],
+        [
+          "solder_mask_bridge|172831313|85071207|1876d990-5727-45a0-abe7-a9124dd06b36|0ae07b71-8d09-4cdc-92de-bfd6ad5adb68",
+          ""
+        ],
+        [
+          "starved_thermal|145342500|100180000|3a53967c-9c32-4f48-b052-68566d07eb02|6d1eb2fe-cce8-4ae1-b0ed-d469dd5c414c|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|147599999|95399998|95af8f53-a585-46d0-b49a-cdce4e5b231a|d48ce974-8936-41b7-93f4-2b3a6efbe780|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|149100001|95399998|95af8f53-a585-46d0-b49a-cdce4e5b231a|ba494f8c-b8d4-463e-acc0-88d285a1ff3b|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|149150000|98225000|95af8f53-a585-46d0-b49a-cdce4e5b231a|a572919c-d249-471b-8625-30b8f42cef2f|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -198,7 +251,8 @@
         0.2,
         0.3,
         0.5,
-        1.5
+        1.5,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -589,15 +643,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.17,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -606,16 +659,15 @@
         "pcb_color": "rgb(132, 0, 132)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6518,
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "track_width": 0.1402,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -625,15 +677,14 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -643,15 +694,14 @@
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1402,
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -661,15 +711,14 @@
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -679,15 +728,14 @@
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -697,15 +745,14 @@
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1605,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -715,8 +762,8 @@
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -903,6 +950,12 @@
           "group_by": false,
           "label": "Mouser ID",
           "name": "Mouser ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],
