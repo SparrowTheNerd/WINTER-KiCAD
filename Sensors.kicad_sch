@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "WINTER Sensors")
-		(date "2025-08-28")
-		(rev "4-Dev")
+		(date "2025-11-24")
+		(rev "4.1")
 		(company "SparrowTheNerd")
 	)
 	(lib_symbols
@@ -3421,7 +3421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.5 133.35 0)
 			(effects
 				(font
@@ -3466,7 +3466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product ID" "GRT153R61A105ME13D"
+		(property "Product ID" "CL10B105KP8NNNC "
 			(at 63.5 133.35 0)
 			(effects
 				(font
@@ -3475,7 +3475,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" ""
 			(at 63.5 133.35 0)
 			(effects
 				(font
@@ -3623,6 +3623,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 193.04 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43c17c13-5b49-4d42-8709-5a1b71ea3e2e")
+		(property "Reference" "C35"
+			(at 188.8236 44.3992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 190.5 43.6372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price Per Item" ""
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "CL10B105KP8NNNC "
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser ID" ""
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c50590ae-f0b0-4514-a7cc-63933f3e3b82")
+		)
+		(pin "2"
+			(uuid "7600f3ee-67d8-4243-a942-5e70009874ed")
+		)
+		(instances
+			(project "WINTER"
+				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/595bc435-8840-4b57-9d45-84e2c6628ca1"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 203.2 41.91 0)
 		(unit 1)
@@ -3683,84 +3797,6 @@
 			(project "SAP Mk3.3"
 				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/595bc435-8840-4b57-9d45-84e2c6628ca1"
 					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 124.46 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6497e079-ae53-42e4-bbff-f8a647a8e63b")
-		(property "Reference" "C17"
-			(at 117.856 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 117.856 146.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 124.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 124.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product ID" "GRM155R61A106ME11D"
-			(at 124.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b471f4f4-bc46-42cd-9b51-909d46406c97")
-		)
-		(pin "2"
-			(uuid "72eff0c6-3377-4ede-b72b-3e166c3a3a84")
-		)
-		(instances
-			(project "WINTER"
-				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/595bc435-8840-4b57-9d45-84e2c6628ca1"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4051,15 +4087,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 193.04 45.72 180)
+		(at 124.46 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "74ee030d-7c57-4ab6-82ce-5fa4ed511bfb")
-		(property "Reference" "C19"
-			(at 190.754 45.974 0)
+		(uuid "75e0e937-a93d-4fb4-af9e-aac55401a844")
+		(property "Reference" "C17"
+			(at 117.856 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,8 +4103,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 200.152 43.942 0)
+		(property "Value" "10nF"
+			(at 117.856 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,8 +4112,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 193.04 45.72 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 124.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4122,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 45.72 0)
+			(at 124.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4131,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 193.04 45.72 0)
+			(at 124.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,44 +4139,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price Per Item" ""
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Product ID" "GRT153R61A105ME13D"
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser ID" ""
-			(at 193.04 45.72 0)
+		(property "Product ID" "GRM155R61A106ME11D"
+			(at 124.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,15 +4149,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b81dbcb6-c38e-4fba-bcdf-e6e18584cf83")
+			(uuid "e0f1c6d9-1f02-45e3-9d6c-a1d68f1fd5f6")
 		)
 		(pin "2"
-			(uuid "3025ecd5-77d2-429b-9ee4-6d75d7afa7cf")
+			(uuid "0d8cdc6f-c9a8-43bd-baec-51397b47905a")
 		)
 		(instances
-			(project "SAP Mk3.3"
+			(project "WINTER"
 				(path "/b8dcf6c3-e00e-4510-86f1-1869a84939df/595bc435-8840-4b57-9d45-84e2c6628ca1"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)

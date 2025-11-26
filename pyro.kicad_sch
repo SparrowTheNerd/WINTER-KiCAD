@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "WINTER Pyro Channels")
-		(date "2025-08-28")
-		(rev "4-Dev")
+		(date "2025-11-24")
+		(rev "4.1")
 		(company "SparrowTheNerd")
 	)
 	(lib_symbols

@@ -7133,7 +7133,7 @@
 		(symbol "TPS2121RUXR_0_1"
 			(polyline
 				(pts
-					(xy -12.7 25.4) (xy -12.7 -25.4)
+					(xy -12.7 24.13) (xy -12.7 -25.4)
 				)
 				(stroke
 					(width 0.2032)
@@ -7157,7 +7157,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 25.4) (xy -12.7 25.4)
+					(xy 12.7 24.13) (xy -12.7 24.13)
 				)
 				(stroke
 					(width 0.2032)
@@ -7169,7 +7169,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -25.4) (xy 12.7 25.4)
+					(xy 12.7 -25.4) (xy 12.7 24.13)
 				)
 				(stroke
 					(width 0.2032)
@@ -7234,7 +7234,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -8.89 0)
+				(at -17.78 -6.35 0)
 				(length 5.08)
 				(name "IN2"
 					(effects
@@ -7252,7 +7252,25 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -16.51 0)
+				(at -17.78 -13.97 0)
+				(length 5.08)
+				(name "CP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -21.59 0)
 				(length 5.08)
 				(name "OV2"
 					(effects
@@ -7316,24 +7334,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 17.78 7.62 180)
-				(length 5.08)
-				(name "CP2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

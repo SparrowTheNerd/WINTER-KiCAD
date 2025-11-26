@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "WINTER Microcontroller Layout")
-		(date "2025-08-28")
-		(rev "4-Dev")
+		(date "2025-11-24")
+		(rev "4.1")
 		(company "SparrowTheNerd")
 	)
 	(lib_symbols
@@ -5804,7 +5804,7 @@
 		(dnp no)
 		(uuid "2b170c57-f0f3-473d-bb44-f660726d6832")
 		(property "Reference" "R5"
-			(at 199.898 37.846 90)
+			(at 201.93 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +6095,7 @@
 		(dnp no)
 		(uuid "4f682371-c222-469a-8fe5-ac53e2ebab9d")
 		(property "Reference" "R6"
-			(at 202.438 37.846 90)
+			(at 204.47 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7094,7 @@
 		(dnp no)
 		(uuid "a2cc83ae-cc44-404c-b5f7-223a9d34ace1")
 		(property "Reference" "R3"
-			(at 194.818 37.846 90)
+			(at 196.85 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +7388,7 @@
 		(dnp no)
 		(uuid "af888c77-57b7-448b-9e25-2a32037d1e95")
 		(property "Reference" "R4"
-			(at 199.136 41.656 0)
+			(at 199.39 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)

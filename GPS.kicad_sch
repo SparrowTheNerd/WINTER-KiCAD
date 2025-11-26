@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "WINTER GPS")
-		(date "2025-08-28")
-		(rev "4-Dev")
+		(date "2025-11-24")
+		(rev "4.1")
 		(company "SparrowTheNerd")
 	)
 	(lib_symbols
@@ -1594,7 +1594,7 @@
 	)
 	(text "3V Bias-T for active antenna"
 		(exclude_from_sim no)
-		(at 189.484 114.3 0)
+		(at 212.344 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1603,7 +1603,7 @@
 		(uuid "b1dc2836-d094-4fab-8a49-60aa359f87bc")
 	)
 	(junction
-		(at 179.07 109.22)
+		(at 201.93 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41dc81a5-0e45-42cd-9c62-7a97f5ba16a3")
@@ -1627,10 +1627,10 @@
 		(uuid "9e1184ee-1316-4051-8ab9-49ee5cd66ac4")
 	)
 	(junction
-		(at 179.07 97.79)
+		(at 201.93 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de5c6981-df01-4a44-a447-538405ec5baf")
+		(uuid "b0dd20a8-0535-40da-92c5-f80251dc059f")
 	)
 	(no_connect
 		(at 156.21 80.01)
@@ -1686,16 +1686,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 102.87) (xy 179.07 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20b09abe-20dc-4503-8686-18e8512f2c15")
-	)
-	(wire
-		(pts
 			(xy 157.48 95.25) (xy 157.48 100.33)
 		)
 		(stroke
@@ -1706,16 +1696,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 97.79) (xy 209.55 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29df0d54-e097-4305-9971-9c6a9f87257f")
-	)
-	(wire
-		(pts
 			(xy 107.95 99.06) (xy 107.95 97.79)
 		)
 		(stroke
@@ -1723,6 +1703,16 @@
 			(type default)
 		)
 		(uuid "302964df-59fa-499d-83dd-e45a3332d010")
+	)
+	(wire
+		(pts
+			(xy 186.69 97.79) (xy 201.93 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e74a0e-14c7-44a8-85b2-e617de47bf0b")
 	)
 	(wire
 		(pts
@@ -1776,6 +1766,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 97.79) (xy 171.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65eaa1dc-e3cd-4ea7-8c18-3afab6bfc7e1")
+	)
+	(wire
+		(pts
 			(xy 105.41 96.52) (xy 105.41 97.79)
 		)
 		(stroke
@@ -1783,6 +1783,16 @@
 			(type default)
 		)
 		(uuid "698b936e-b0c6-41b4-91af-c662b62ad32f")
+	)
+	(wire
+		(pts
+			(xy 201.93 97.79) (xy 231.14 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70615c9e-3c7b-4d9b-9e00-d9c7bcdd5870")
 	)
 	(wire
 		(pts
@@ -1816,16 +1826,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 97.79) (xy 179.07 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a35a42ec-7f95-417d-ae77-77ae1b762b39")
-	)
-	(wire
-		(pts
 			(xy 156.21 90.17) (xy 165.1 90.17)
 		)
 		(stroke
@@ -1836,17 +1836,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 97.79) (xy 231.14 97.79)
+			(xy 201.93 99.06) (xy 201.93 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad996d5c-c719-4f19-86f2-9d7da2180547")
+		(uuid "affb1e23-d962-4da8-8864-ad39040de257")
 	)
 	(wire
 		(pts
-			(xy 179.07 107.95) (xy 179.07 109.22)
+			(xy 201.93 104.14) (xy 201.93 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1856,7 +1856,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 109.22) (xy 179.07 109.22)
+			(xy 194.31 105.41) (xy 201.93 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1876,7 +1876,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 114.3) (xy 171.45 115.57)
+			(xy 194.31 110.49) (xy 194.31 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1896,7 +1896,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 109.22) (xy 187.96 109.22)
+			(xy 201.93 105.41) (xy 210.82 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1916,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 109.22) (xy 201.93 109.22)
+			(xy 215.9 105.41) (xy 224.79 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1926,7 +1926,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 107.95) (xy 217.17 110.49)
+			(xy 179.07 107.95) (xy 179.07 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1935,7 +1935,7 @@
 		(uuid "ebc1f9a8-05b3-4017-ba44-23947077d19e")
 	)
 	(label "GPS_ANT"
-		(at 224.79 97.79 0)
+		(at 210.82 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1955,7 +1955,7 @@
 		(uuid "5cd93e38-1a82-4376-8020-08f3ec7910b3")
 	)
 	(label "GPS_RFIN"
-		(at 167.64 97.79 0)
+		(at 162.56 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1965,7 +1965,7 @@
 		(uuid "a9b1b894-0f21-4533-af51-aeee95d2797d")
 	)
 	(label "VCC_RF"
-		(at 201.93 109.22 180)
+		(at 224.79 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2085,7 +2085,7 @@
 	)
 	(symbol
 		(lib_id "Filter:B39162B8813P810")
-		(at 217.17 100.33 0)
+		(at 179.07 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2094,7 +2094,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b612f1a-4d3d-432c-b04e-cbbbeb8d6302")
 		(property "Reference" "FL2"
-			(at 217.17 90.17 0)
+			(at 179.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2102,7 @@
 			)
 		)
 		(property "Value" "B39162B8813P810"
-			(at 217.17 92.71 0)
+			(at 179.07 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2110,7 @@
 			)
 		)
 		(property "Footprint" "Filter:Filter_1109-5_1.1x0.9mm"
-			(at 217.17 100.33 0)
+			(at 179.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2119,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/search-template/en/documents/data_sheet/40/ds/mc/B9482.pdf"
-			(at 215.392 99.568 0)
+			(at 177.292 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2128,16 @@
 			)
 		)
 		(property "Description" "1582.47MHz SAW filter, SMD 1109"
-			(at 217.17 100.33 0)
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "B39162B8813P810"
+			(at 179.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +2237,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 190.5 109.22 90)
+		(at 213.36 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2236,7 +2245,7 @@
 		(dnp no)
 		(uuid "3e48eebe-3d82-4c0f-b790-dccdabc431e1")
 		(property "Reference" "R21"
-			(at 188.976 109.22 90)
+			(at 211.836 105.41 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2245,7 +2254,7 @@
 			)
 		)
 		(property "Value" "10, 0.25W"
-			(at 185.42 110.998 90)
+			(at 208.28 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2263,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 190.5 109.22 0)
+			(at 213.36 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 109.22 0)
+			(at 213.36 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2281,16 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 190.5 109.22 0)
+			(at 213.36 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "MCT0603PD1009DP500 "
+			(at 213.36 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +2791,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 171.45 115.57 0)
+		(at 194.31 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2782,7 +2800,7 @@
 		(dnp no)
 		(uuid "a82a926a-0f05-4878-adb9-040b328a3781")
 		(property "Reference" "#PWR011"
-			(at 171.45 121.92 0)
+			(at 194.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +2809,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 171.45 119.38 0)
+			(at 194.31 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 115.57 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 115.57 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 171.45 115.57 0)
+			(at 194.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2857,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 217.17 110.49 0)
+		(at 179.07 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2848,7 +2866,7 @@
 		(dnp no)
 		(uuid "ab52f8ac-12fe-4bf8-8b40-8819ea91d743")
 		(property "Reference" "#PWR010"
-			(at 217.17 116.84 0)
+			(at 179.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2875,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 217.17 114.3 0)
+			(at 179.07 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 110.49 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 110.49 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 217.17 110.49 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2923,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 179.07 105.41 0)
+		(at 201.93 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2914,7 +2932,7 @@
 		(fields_autoplaced yes)
 		(uuid "abb04248-fc80-429c-b7f2-fb1e02ae1a3e")
 		(property "Reference" "L3"
-			(at 180.34 104.1399 0)
+			(at 203.2 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2941,7 @@
 			)
 		)
 		(property "Value" "27nH"
-			(at 180.34 106.6799 0)
+			(at 203.2 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2950,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 179.07 105.41 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +2959,7 @@
 			)
 		)
 		(property "Datasheet" "LQG15HS27NJ02D"
-			(at 179.07 105.41 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2968,16 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 179.07 105.41 0)
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "LQG15HS27NJ02D "
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +3002,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 171.45 111.76 0)
+		(at 194.31 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2983,7 +3010,7 @@
 		(dnp no)
 		(uuid "dbf4b522-444d-46d4-8d38-fbb75943ad5b")
 		(property "Reference" "C13"
-			(at 164.846 110.744 0)
+			(at 187.706 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +3019,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 164.846 113.284 0)
+			(at 187.706 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +3028,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 171.45 111.76 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3037,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 111.76 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3046,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 171.45 111.76 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +3055,7 @@
 			)
 		)
 		(property "Product ID" "GRM155R61A106ME11D"
-			(at 171.45 111.76 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,6 +3126,15 @@
 			)
 		)
 		(property "Description" "AP.10H.01"
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product ID" "AP.10H.01"
 			(at 233.68 88.9 0)
 			(effects
 				(font

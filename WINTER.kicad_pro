@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.4,
-          "width": 0.46
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -59,60 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|150645711|101280000|581eaf66-3889-4b8c-a60e-b23441407b60|69bfcbdb-294d-452f-9f1b-d28c82847a92",
-          ""
-        ],
-        [
-          "clearance|151212114|101472175|fb0b8537-5dae-4246-8550-551a1287f387|69bfcbdb-294d-452f-9f1b-d28c82847a92",
-          ""
-        ],
-        [
-          "clearance|151404289|100880000|4c1eff06-e0ea-4afb-afde-decf62fb3581|69bfcbdb-294d-452f-9f1b-d28c82847a92",
-          ""
-        ],
-        [
-          "silk_edge_clearance|138113508|116600000|880f784f-0887-4cc9-aab8-9cf8e5d4c980|d1410506-43aa-42fb-b77f-af7c98a16810",
-          ""
-        ],
-        [
-          "silk_edge_clearance|138130291|85538999|510d2e48-0798-4a84-a8db-f7dfcb1688fd|f18560fa-f2f9-44f5-9db8-76d5b504c424",
-          ""
-        ],
-        [
-          "solder_mask_bridge|171687501|85000000|1876d990-5727-45a0-abe7-a9124dd06b36|0ae07b71-8d09-4cdc-92de-bfd6ad5adb68",
-          ""
-        ],
-        [
-          "solder_mask_bridge|172150000|85000000|1876d990-5727-45a0-abe7-a9124dd06b36|0ae07b71-8d09-4cdc-92de-bfd6ad5adb68",
-          ""
-        ],
-        [
-          "solder_mask_bridge|172221117|85071117|1876d990-5727-45a0-abe7-a9124dd06b36|0ae07b71-8d09-4cdc-92de-bfd6ad5adb68",
-          ""
-        ],
-        [
-          "solder_mask_bridge|172831313|85071207|1876d990-5727-45a0-abe7-a9124dd06b36|0ae07b71-8d09-4cdc-92de-bfd6ad5adb68",
-          ""
-        ],
-        [
-          "starved_thermal|145342500|100180000|3a53967c-9c32-4f48-b052-68566d07eb02|6d1eb2fe-cce8-4ae1-b0ed-d469dd5c414c|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|147599999|95399998|95af8f53-a585-46d0-b49a-cdce4e5b231a|d48ce974-8936-41b7-93f4-2b3a6efbe780|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|149100001|95399998|95af8f53-a585-46d0-b49a-cdce4e5b231a|ba494f8c-b8d4-463e-acc0-88d285a1ff3b|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|149150000|98225000|95af8f53-a585-46d0-b49a-cdce4e5b231a|a572919c-d249-471b-8625-30b8f42cef2f|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -286,7 +233,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.35,
+          "diameter": 0.45,
           "drill": 0.2
         },
         {
@@ -816,6 +763,18 @@
       {
         "netclass": "LORA-RF",
         "pattern": "/LoRa Radio/RF*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Power/VMux"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "LIPO+"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Power/VBUS"
       }
     ]
   },
@@ -824,7 +783,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "E:/seadrive_root/admin/My Libraries/Projects/WINTER/rev3/KiCAD/WINTER Rev3.3/production/",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "WINTERv3.3.step",
@@ -964,7 +923,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
